@@ -4,7 +4,7 @@ $scope.elements = [
   {
     "atomic_number":1,
     "atomic_symbol":"H",
-    "group_number":"1",
+    "group_number":1,
     "old_group_number":"I A",
     "period":1,
     "english_name":"hydrogen",
@@ -75,9 +75,11 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"other nonmetal",
-    "atomic weight":"1.00794(7)",
-    "number of stable isotopes":2
+    "atomic_weight":"1.00794(7)",
+    "number_of_stable_isotopes":2
   },
+  { "none": null, },
+  { "none": null, },
   { "none": null, },
   { "none": null, },
   { "none": null, },
@@ -95,7 +97,7 @@ $scope.elements = [
   {
     "atomic_number":2,
     "atomic_symbol":"He",
-    "group_number":"18",
+    "group_number":18,
     "old_group_number":"VIII A",
     "period":1,
     "english_name":"helium",
@@ -166,13 +168,13 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"noble gas",
-    "atomic weight":"4.002602(2)",
-    "number of stable isotopes":2
+    "atomic_weight":"4.002602(2)",
+    "number_of_stable_isotopes":2
   },
   {
     "atomic_number":3,
     "atomic_symbol":"Li",
-    "group_number":"1",
+    "group_number":1,
     "old_group_number":"I A",
     "period":2,
     "english_name":"lithium",
@@ -243,13 +245,13 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"alkali metal",
-    "atomic weight":"6.941(2)",
-    "number of stable isotopes":null
+    "atomic_weight":"6.941(2)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":4,
     "atomic_symbol":"Be",
-    "group_number":"2",
+    "group_number":2,
     "old_group_number":"II A",
     "period":2,
     "english_name":"beryllium",
@@ -320,9 +322,11 @@ $scope.elements = [
     "is_toxic":true,
     "is_carcinogenic":true,
     "Family":"alkaline earth metal",
-    "atomic weight":"9.012182(3)",
-    "number of stable isotopes":null
+    "atomic_weight":"9.012182(3)",
+    "number_of_stable_isotopes":null
   },
+  { "none": null, },
+  { "none": null, },
   { "none": null, },
   { "none": null, },
   { "none": null, },
@@ -334,7 +338,7 @@ $scope.elements = [
   {
     "atomic_number":5,
     "atomic_symbol":"B",
-    "group_number":"13",
+    "group_number":13,
     "old_group_number":"III A",
     "period":2,
     "english_name":"boron",
@@ -405,13 +409,13 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"metalloid",
-    "atomic weight":"10.811(7)",
-    "number of stable isotopes":null
+    "atomic_weight":"10.811(7)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":6,
     "atomic_symbol":"C",
-    "group_number":"14",
+    "group_number":14,
     "old_group_number":"IV A",
     "period":2,
     "english_name":"carbon",
@@ -482,13 +486,13 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"other nonmetal",
-    "atomic weight":"12.0107(8)",
-    "number of stable isotopes":null
+    "atomic_weight":"12.0107(8)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":7,
     "atomic_symbol":"N",
-    "group_number":"15",
+    "group_number":15,
     "old_group_number":"V A",
     "period":2,
     "english_name":"nitrogen",
@@ -559,13 +563,13 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"other nonmetal",
-    "atomic weight":"14.0067(2)",
-    "number of stable isotopes":null
+    "atomic_weight":"14.0067(2)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":8,
     "atomic_symbol":"O",
-    "group_number":"16",
+    "group_number":16,
     "old_group_number":"VI A",
     "period":2,
     "english_name":"oxygen",
@@ -636,13 +640,13 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"other nonmetal",
-    "atomic weight":"15.9994(3)",
-    "number of stable isotopes":null
+    "atomic_weight":"15.9994(3)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":9,
     "atomic_symbol":"F",
-    "group_number":"17",
+    "group_number":17,
     "old_group_number":"VII A",
     "period":2,
     "english_name":"fluorine",
@@ -713,13 +717,13 @@ $scope.elements = [
     "is_toxic":true,
     "is_carcinogenic":false,
     "Family":"halogen",
-    "atomic weight":"18.9984032(5)",
-    "number of stable isotopes":null
+    "atomic_weight":"18.9984032(5)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":10,
     "atomic_symbol":"Ne",
-    "group_number":"18",
+    "group_number":18,
     "old_group_number":"VIII A",
     "period":2,
     "english_name":"neon",
@@ -790,13 +794,13 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"noble gas",
-    "atomic weight":"20.1797(6)",
-    "number of stable isotopes":null
+    "atomic_weight":"20.1797(6)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":11,
     "atomic_symbol":"Na",
-    "group_number":"1",
+    "group_number":1,
     "old_group_number":"I A",
     "period":3,
     "english_name":"sodium",
@@ -867,13 +871,13 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"alkali metal",
-    "atomic weight":"22.98976928(2)",
-    "number of stable isotopes":null
+    "atomic_weight":"22.98976928(2)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":12,
     "atomic_symbol":"Mg",
-    "group_number":"2",
+    "group_number":2,
     "old_group_number":"II A",
     "period":3,
     "english_name":"magnesium",
@@ -944,9 +948,11 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"alkaline earth metal",
-    "atomic weight":"24.3050(6)",
-    "number of stable isotopes":null
+    "atomic_weight":"24.3050(6)",
+    "number_of_stable_isotopes":null
   },
+  { "none": null, },
+  { "none": null, },
   { "none": null, },
   { "none": null, },
   { "none": null, },
@@ -958,7 +964,7 @@ $scope.elements = [
   {
     "atomic_number":13,
     "atomic_symbol":"Al",
-    "group_number":"13",
+    "group_number":13,
     "old_group_number":"III A",
     "period":3,
     "english_name":"aluminum",
@@ -1029,13 +1035,13 @@ $scope.elements = [
     "is_toxic":true,
     "is_carcinogenic":false,
     "Family":"other metal",
-    "atomic weight":"26.9815386(8)",
-    "number of stable isotopes":null
+    "atomic_weight":"26.9815386(8)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":14,
     "atomic_symbol":"Si",
-    "group_number":"14",
+    "group_number":14,
     "old_group_number":"IV A",
     "period":3,
     "english_name":"silicon",
@@ -1106,13 +1112,13 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"metalloid",
-    "atomic weight":"28.0855(3)",
-    "number of stable isotopes":null
+    "atomic_weight":"28.0855(3)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":15,
     "atomic_symbol":"P",
-    "group_number":"15",
+    "group_number":15,
     "old_group_number":"V A",
     "period":3,
     "english_name":"phosphorus",
@@ -1183,13 +1189,13 @@ $scope.elements = [
     "is_toxic":true,
     "is_carcinogenic":false,
     "Family":"other nonmetal",
-    "atomic weight":"30.973762(2)",
-    "number of stable isotopes":null
+    "atomic_weight":"30.973762(2)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":16,
     "atomic_symbol":"S",
-    "group_number":"16",
+    "group_number":16,
     "old_group_number":"VI A",
     "period":3,
     "english_name":"sulfur",
@@ -1260,13 +1266,13 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"other nonmetal",
-    "atomic weight":"32.065(5)",
-    "number of stable isotopes":null
+    "atomic_weight":"32.065(5)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":17,
     "atomic_symbol":"Cl",
-    "group_number":"17",
+    "group_number":17,
     "old_group_number":"VII A",
     "period":3,
     "english_name":"chlorine",
@@ -1337,13 +1343,13 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"halogen",
-    "atomic weight":"35.453(2)",
-    "number of stable isotopes":null
+    "atomic_weight":"35.453(2)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":18,
     "atomic_symbol":"Ar",
-    "group_number":"18",
+    "group_number":18,
     "old_group_number":"VIII A",
     "period":3,
     "english_name":"argon",
@@ -1414,13 +1420,13 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"noble gas",
-    "atomic weight":"39.948(1)",
-    "number of stable isotopes":null
+    "atomic_weight":"39.948(1)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":19,
     "atomic_symbol":"K",
-    "group_number":"1",
+    "group_number":1,
     "old_group_number":"I A",
     "period":4,
     "english_name":"potassium",
@@ -1491,13 +1497,13 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"alkali metal",
-    "atomic weight":"39.0983(1)",
-    "number of stable isotopes":null
+    "atomic_weight":"39.0983(1)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":20,
     "atomic_symbol":"Ca",
-    "group_number":"2",
+    "group_number":2,
     "old_group_number":"II A",
     "period":4,
     "english_name":"calcium",
@@ -1511,7 +1517,7 @@ $scope.elements = [
     "Boiling Point, °C":1484,
     "state_at_room_temp":"solid",
     "density g/mL":1.54,
-    "electronegativity (Pauling)":"1",
+    "electronegativity (Pauling)":1,
     "1st ionization potential (eV)":6.1132,
     "2nd ionization potential (eV)":11.871,
     "3rd ionization potential (eV)":50.908,
@@ -1519,7 +1525,7 @@ $scope.elements = [
     "2nd ionization potential (kJ/mol)":1145,
     "3rd ionization potential (kJ/mol)":4912,
     "Electron Affinity (eV)":"0.04",
-    "Electron Affinity (kJ/mol)":"4",
+    "Electron Affinity (kJ/mol)":4,
     "common_oxidation_states":"+2",
     "Predicted Electron Configuration":"[Ar] 4s2",
     "Observed Electron Configuration":"[Ar] 4s2",
@@ -1568,13 +1574,13 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"alkaline earth metal",
-    "atomic weight":"40.078(4)",
-    "number of stable isotopes":null
+    "atomic_weight":"40.078(4)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":21,
     "atomic_symbol":"Sc",
-    "group_number":"3",
+    "group_number":3,
     "old_group_number":"III B",
     "period":4,
     "english_name":"scandium",
@@ -1596,7 +1602,7 @@ $scope.elements = [
     "2nd ionization potential (kJ/mol)":1235,
     "3rd ionization potential (kJ/mol)":2389,
     "Electron Affinity (eV)":"0.19",
-    "Electron Affinity (kJ/mol)":"18",
+    "Electron Affinity (kJ/mol)":18,
     "common_oxidation_states":"+3",
     "Predicted Electron Configuration":"[Ar] 4s2 3d1",
     "Observed Electron Configuration":"[Ar] 4s2 3d1",
@@ -1645,13 +1651,13 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"transition element",
-    "atomic weight":"44.955912(6)",
-    "number of stable isotopes":null
+    "atomic_weight":"44.955912(6)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":22,
     "atomic_symbol":"Ti",
-    "group_number":"4",
+    "group_number":4,
     "old_group_number":"IV B",
     "period":4,
     "english_name":"titanium",
@@ -1673,7 +1679,7 @@ $scope.elements = [
     "2nd ionization potential (kJ/mol)":1310,
     "3rd ionization potential (kJ/mol)":2652,
     "Electron Affinity (eV)":"0.08",
-    "Electron Affinity (kJ/mol)":"8",
+    "Electron Affinity (kJ/mol)":8,
     "common_oxidation_states":"+4,3,2",
     "Predicted Electron Configuration":"[Ar] 4s2 3d2",
     "Observed Electron Configuration":"[Ar] 4s2 3d2",
@@ -1722,13 +1728,13 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"transition element",
-    "atomic weight":"47.867(1)",
-    "number of stable isotopes":null
+    "atomic_weight":"47.867(1)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":23,
     "atomic_symbol":"V",
-    "group_number":"5",
+    "group_number":5,
     "old_group_number":"V B",
     "period":4,
     "english_name":"vanadium",
@@ -1799,13 +1805,13 @@ $scope.elements = [
     "is_toxic":true,
     "is_carcinogenic":false,
     "Family":"transition element",
-    "atomic weight":"50.9415(1)",
-    "number of stable isotopes":null
+    "atomic_weight":"50.9415(1)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":24,
     "atomic_symbol":"Cr",
-    "group_number":"6",
+    "group_number":6,
     "old_group_number":"VI B",
     "period":4,
     "english_name":"chromium",
@@ -1876,13 +1882,13 @@ $scope.elements = [
     "is_toxic":true,
     "is_carcinogenic":false,
     "Family":"transition element",
-    "atomic weight":"51.9961(6)",
-    "number of stable isotopes":null
+    "atomic_weight":"51.9961(6)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":25,
     "atomic_symbol":"Mn",
-    "group_number":"7",
+    "group_number":7,
     "old_group_number":"VII B",
     "period":4,
     "english_name":"manganese",
@@ -1953,13 +1959,13 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"transition element",
-    "atomic weight":"54.938045(5)",
-    "number of stable isotopes":null
+    "atomic_weight":"54.938045(5)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":26,
     "atomic_symbol":"Fe",
-    "group_number":"8",
+    "group_number":8,
     "old_group_number":"VIII B",
     "period":4,
     "english_name":"iron",
@@ -1981,7 +1987,7 @@ $scope.elements = [
     "2nd ionization potential (kJ/mol)":1561,
     "3rd ionization potential (kJ/mol)":2957,
     "Electron Affinity (eV)":"0.15",
-    "Electron Affinity (kJ/mol)":"15",
+    "Electron Affinity (kJ/mol)":15,
     "common_oxidation_states":"+3,2",
     "Predicted Electron Configuration":"[Ar] 4s2 3d6",
     "Observed Electron Configuration":"[Ar] 4s2 3d6",
@@ -2030,13 +2036,13 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"transition element",
-    "atomic weight":"55.845(2)",
-    "number of stable isotopes":null
+    "atomic_weight":"55.845(2)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":27,
     "atomic_symbol":"Co",
-    "group_number":"9",
+    "group_number":9,
     "old_group_number":"VIII B",
     "period":4,
     "english_name":"cobalt",
@@ -2107,13 +2113,13 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":true,
     "Family":"transition element",
-    "atomic weight":"58.933195(5)",
-    "number of stable isotopes":null
+    "atomic_weight":"58.933195(5)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":28,
     "atomic_symbol":"Ni",
-    "group_number":"10",
+    "group_number":10,
     "old_group_number":"VIII B",
     "period":4,
     "english_name":"nickel",
@@ -2184,13 +2190,13 @@ $scope.elements = [
     "is_toxic":true,
     "is_carcinogenic":true,
     "Family":"transition element",
-    "atomic weight":"58.6934(4)",
-    "number of stable isotopes":null
+    "atomic_weight":"58.6934(4)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":29,
     "atomic_symbol":"Cu",
-    "group_number":"11",
+    "group_number":11,
     "old_group_number":"I B",
     "period":4,
     "english_name":"copper",
@@ -2261,13 +2267,13 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"transition element",
-    "atomic weight":"63.546(3)",
-    "number of stable isotopes":null
+    "atomic_weight":"63.546(3)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":30,
     "atomic_symbol":"Zn",
-    "group_number":"12",
+    "group_number":12,
     "old_group_number":"II B",
     "period":4,
     "english_name":"zinc",
@@ -2338,13 +2344,13 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"transition element",
-    "atomic weight":"65.38(2)",
-    "number of stable isotopes":null
+    "atomic_weight":"65.38(2)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":31,
     "atomic_symbol":"Ga",
-    "group_number":"13",
+    "group_number":13,
     "old_group_number":"III A",
     "period":4,
     "english_name":"gallium",
@@ -2415,13 +2421,13 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"other metal",
-    "atomic weight":"69.723(1)",
-    "number of stable isotopes":null
+    "atomic_weight":"69.723(1)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":32,
     "atomic_symbol":"Ge",
-    "group_number":"14",
+    "group_number":14,
     "old_group_number":"IV A",
     "period":4,
     "english_name":"germanium",
@@ -2492,13 +2498,13 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"metalloid",
-    "atomic weight":"72.64(1)",
-    "number of stable isotopes":null
+    "atomic_weight":"72.64(1)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":33,
     "atomic_symbol":"As",
-    "group_number":"15",
+    "group_number":15,
     "old_group_number":"V A",
     "period":4,
     "english_name":"arsenic",
@@ -2569,13 +2575,13 @@ $scope.elements = [
     "is_toxic":true,
     "is_carcinogenic":true,
     "Family":"metalloid",
-    "atomic weight":"74.92160(2)",
-    "number of stable isotopes":null
+    "atomic_weight":"74.92160(2)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":34,
     "atomic_symbol":"Se",
-    "group_number":"16",
+    "group_number":16,
     "old_group_number":"VI A",
     "period":4,
     "english_name":"selenium",
@@ -2646,13 +2652,13 @@ $scope.elements = [
     "is_toxic":true,
     "is_carcinogenic":false,
     "Family":"other nonmetal",
-    "atomic weight":"78.96(3)",
-    "number of stable isotopes":null
+    "atomic_weight":"78.96(3)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":35,
     "atomic_symbol":"Br",
-    "group_number":"17",
+    "group_number":17,
     "old_group_number":"VII A",
     "period":4,
     "english_name":"bromine",
@@ -2723,13 +2729,13 @@ $scope.elements = [
     "is_toxic":true,
     "is_carcinogenic":false,
     "Family":"halogen",
-    "atomic weight":"79.904(1)",
-    "number of stable isotopes":null
+    "atomic_weight":"79.904(1)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":36,
     "atomic_symbol":"Kr",
-    "group_number":"18",
+    "group_number":18,
     "old_group_number":"VIII A",
     "period":4,
     "english_name":"krypton",
@@ -2743,7 +2749,7 @@ $scope.elements = [
     "Boiling Point, °C":-152,
     "state_at_room_temp":"gas",
     "density g/mL":0.003733,
-    "electronegativity (Pauling)":"3",
+    "electronegativity (Pauling)":3,
     "1st ionization potential (eV)":13.9996,
     "2nd ionization potential (eV)":24.359,
     "3rd ionization potential (eV)":36.95,
@@ -2800,13 +2806,13 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"noble gas",
-    "atomic weight":"83.798(2)",
-    "number of stable isotopes":null
+    "atomic_weight":"83.798(2)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":37,
     "atomic_symbol":"Rb",
-    "group_number":"1",
+    "group_number":1,
     "old_group_number":"I A",
     "period":5,
     "english_name":"rubidium",
@@ -2877,13 +2883,13 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"alkali metal",
-    "atomic weight":"85.4678(3)",
-    "number of stable isotopes":null
+    "atomic_weight":"85.4678(3)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":38,
     "atomic_symbol":"Sr",
-    "group_number":"2",
+    "group_number":2,
     "old_group_number":"II A",
     "period":5,
     "english_name":"strontium",
@@ -2905,7 +2911,7 @@ $scope.elements = [
     "2nd ionization potential (kJ/mol)":1064,
     "3rd ionization potential (kJ/mol)":4207,
     "Electron Affinity (eV)":"0.11",
-    "Electron Affinity (kJ/mol)":"11",
+    "Electron Affinity (kJ/mol)":11,
     "common_oxidation_states":"+2",
     "Predicted Electron Configuration":"[Kr] 5s2",
     "Observed Electron Configuration":"[Kr] 5s2",
@@ -2954,13 +2960,13 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"alkaline earth metal",
-    "atomic weight":"87.62(1)",
-    "number of stable isotopes":null
+    "atomic_weight":"87.62(1)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":39,
     "atomic_symbol":"Y",
-    "group_number":"3",
+    "group_number":3,
     "old_group_number":"III B",
     "period":5,
     "english_name":"yttrium",
@@ -3031,13 +3037,13 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"transition element",
-    "atomic weight":"88.90585(2)",
-    "number of stable isotopes":null
+    "atomic_weight":"88.90585(2)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":40,
     "atomic_symbol":"Zr",
-    "group_number":"4",
+    "group_number":4,
     "old_group_number":"IV B",
     "period":5,
     "english_name":"zirconium",
@@ -3108,13 +3114,13 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"transition element",
-    "atomic weight":"91.224(2)",
-    "number of stable isotopes":null
+    "atomic_weight":"91.224(2)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":41,
     "atomic_symbol":"Nb",
-    "group_number":"5",
+    "group_number":5,
     "old_group_number":"VI B",
     "period":5,
     "english_name":"niobium",
@@ -3185,13 +3191,13 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"transition element",
-    "atomic weight":"92.90638(2)",
-    "number of stable isotopes":null
+    "atomic_weight":"92.90638(2)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":42,
     "atomic_symbol":"Mo",
-    "group_number":"6",
+    "group_number":6,
     "old_group_number":"VI B",
     "period":5,
     "english_name":"molybdenum",
@@ -3262,13 +3268,13 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"transition element",
-    "atomic weight":"95.96(2)",
-    "number of stable isotopes":null
+    "atomic_weight":"95.96(2)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":43,
     "atomic_symbol":"Tc",
-    "group_number":"7",
+    "group_number":7,
     "old_group_number":"VII B",
     "period":5,
     "english_name":"technetium",
@@ -3339,13 +3345,13 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"transition element",
-    "atomic weight":"98.9063*",
-    "number of stable isotopes":null
+    "atomic_weight":"98.9063*",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":44,
     "atomic_symbol":"Ru",
-    "group_number":"8",
+    "group_number":8,
     "old_group_number":"VIII B",
     "period":5,
     "english_name":"ruthenium",
@@ -3416,13 +3422,13 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"transition element",
-    "atomic weight":"101.07(2)",
-    "number of stable isotopes":null
+    "atomic_weight":"101.07(2)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":45,
     "atomic_symbol":"Rh",
-    "group_number":"9",
+    "group_number":9,
     "old_group_number":"VIII B",
     "period":5,
     "english_name":"rhodium",
@@ -3493,13 +3499,13 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"transition element",
-    "atomic weight":"102.90550(2)",
-    "number of stable isotopes":null
+    "atomic_weight":"102.90550(2)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":46,
     "atomic_symbol":"Pd",
-    "group_number":"10",
+    "group_number":10,
     "old_group_number":"VIII B",
     "period":5,
     "english_name":"palladium",
@@ -3570,13 +3576,13 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"transition element",
-    "atomic weight":"106.42(1)",
-    "number of stable isotopes":null
+    "atomic_weight":"106.42(1)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":47,
     "atomic_symbol":"Ag",
-    "group_number":"11",
+    "group_number":11,
     "old_group_number":"I B",
     "period":5,
     "english_name":"silver",
@@ -3647,13 +3653,13 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"transition element",
-    "atomic weight":"107.8682(2)",
-    "number of stable isotopes":null
+    "atomic_weight":"107.8682(2)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":48,
     "atomic_symbol":"Cd",
-    "group_number":"12",
+    "group_number":12,
     "old_group_number":"II B",
     "period":5,
     "english_name":"cadmium",
@@ -3724,13 +3730,13 @@ $scope.elements = [
     "is_toxic":true,
     "is_carcinogenic":true,
     "Family":"transition element",
-    "atomic weight":"112.411(8)",
-    "number of stable isotopes":null
+    "atomic_weight":"112.411(8)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":49,
     "atomic_symbol":"In",
-    "group_number":"13",
+    "group_number":13,
     "old_group_number":"III A",
     "period":5,
     "english_name":"indium",
@@ -3801,13 +3807,13 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"other metal",
-    "atomic weight":"114.818(3)",
-    "number of stable isotopes":null
+    "atomic_weight":"114.818(3)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":50,
     "atomic_symbol":"Sn",
-    "group_number":"14",
+    "group_number":14,
     "old_group_number":"IV A",
     "period":5,
     "english_name":"tin",
@@ -3878,13 +3884,13 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"other metal",
-    "atomic weight":"118.710(7)",
-    "number of stable isotopes":null
+    "atomic_weight":"118.710(7)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":51,
     "atomic_symbol":"Sb",
-    "group_number":"15",
+    "group_number":15,
     "old_group_number":"V A",
     "period":5,
     "english_name":"antimony",
@@ -3955,13 +3961,13 @@ $scope.elements = [
     "is_toxic":true,
     "is_carcinogenic":false,
     "Family":"metalloid",
-    "atomic weight":"121.760(1)",
-    "number of stable isotopes":null
+    "atomic_weight":"121.760(1)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":52,
     "atomic_symbol":"Te",
-    "group_number":"16",
+    "group_number":16,
     "old_group_number":"VI A",
     "period":5,
     "english_name":"tellurium",
@@ -4032,13 +4038,13 @@ $scope.elements = [
     "is_toxic":true,
     "is_carcinogenic":false,
     "Family":"metalloid",
-    "atomic weight":"127.60(3)",
-    "number of stable isotopes":null
+    "atomic_weight":"127.60(3)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":53,
     "atomic_symbol":"I",
-    "group_number":"17",
+    "group_number":17,
     "old_group_number":"VII A",
     "period":5,
     "english_name":"iodine",
@@ -4109,13 +4115,13 @@ $scope.elements = [
     "is_toxic":true,
     "is_carcinogenic":false,
     "Family":"halogen",
-    "atomic weight":"126.90447(3)",
-    "number of stable isotopes":null
+    "atomic_weight":"126.90447(3)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":54,
     "atomic_symbol":"Xe",
-    "group_number":"18",
+    "group_number":18,
     "old_group_number":"VIII A",
     "period":5,
     "english_name":"xenon",
@@ -4186,13 +4192,13 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"noble gas",
-    "atomic weight":"131.293(6)",
-    "number of stable isotopes":null
+    "atomic_weight":"131.293(6)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":55,
     "atomic_symbol":"Cs",
-    "group_number":"1",
+    "group_number":1,
     "old_group_number":"I A",
     "period":6,
     "english_name":"cesium",
@@ -4263,13 +4269,13 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"alkali metal",
-    "atomic weight":"132.9054519(2)",
-    "number of stable isotopes":null
+    "atomic_weight":"132.9054519(2)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":56,
     "atomic_symbol":"Ba",
-    "group_number":"2",
+    "group_number":2,
     "old_group_number":"II A",
     "period":6,
     "english_name":"barium",
@@ -4291,7 +4297,7 @@ $scope.elements = [
     "2nd ionization potential (kJ/mol)":965,
     "3rd ionization potential (kJ/mol)":null,
     "Electron Affinity (eV)":"0.15",
-    "Electron Affinity (kJ/mol)":"14",
+    "Electron Affinity (kJ/mol)":14,
     "common_oxidation_states":"+2",
     "Predicted Electron Configuration":"[Xe] 6s2",
     "Observed Electron Configuration":"[Xe] 6s2",
@@ -4340,8 +4346,8 @@ $scope.elements = [
     "is_toxic":true,
     "is_carcinogenic":false,
     "Family":"alkaline earth metal",
-    "atomic weight":"137.327(7)",
-    "number of stable isotopes":null
+    "atomic_weight":"137.327(7)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":57,
@@ -4417,8 +4423,8 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"lanthanide",
-    "atomic weight":"138.90547(7)",
-    "number of stable isotopes":null
+    "atomic_weight":"138.90547(7)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":58,
@@ -4494,8 +4500,8 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"lanthanide",
-    "atomic weight":"140.116(1)",
-    "number of stable isotopes":null
+    "atomic_weight":"140.116(1)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":59,
@@ -4571,8 +4577,8 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"lanthanide",
-    "atomic weight":"140.90765(2)",
-    "number of stable isotopes":null
+    "atomic_weight":"140.90765(2)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":60,
@@ -4648,8 +4654,8 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"lanthanide",
-    "atomic weight":"144.242(3)",
-    "number of stable isotopes":null
+    "atomic_weight":"144.242(3)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":61,
@@ -4725,8 +4731,8 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"lanthanide",
-    "atomic weight":"146.9151*",
-    "number of stable isotopes":null
+    "atomic_weight":"146.9151*",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":62,
@@ -4802,8 +4808,8 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"lanthanide",
-    "atomic weight":"150.36(2)",
-    "number of stable isotopes":null
+    "atomic_weight":"150.36(2)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":63,
@@ -4879,8 +4885,8 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"lanthanide",
-    "atomic weight":"151.964(1)",
-    "number of stable isotopes":null
+    "atomic_weight":"151.964(1)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":64,
@@ -4956,8 +4962,8 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"lanthanide",
-    "atomic weight":"157.25(3)",
-    "number of stable isotopes":null
+    "atomic_weight":"157.25(3)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":65,
@@ -5033,8 +5039,8 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"lanthanide",
-    "atomic weight":"158.92535(2)",
-    "number of stable isotopes":null
+    "atomic_weight":"158.92535(2)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":66,
@@ -5110,8 +5116,8 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"lanthanide",
-    "atomic weight":"162.500(1)",
-    "number of stable isotopes":null
+    "atomic_weight":"162.500(1)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":67,
@@ -5187,8 +5193,8 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"lanthanide",
-    "atomic weight":"164.93032(2)",
-    "number of stable isotopes":null
+    "atomic_weight":"164.93032(2)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":68,
@@ -5264,8 +5270,8 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"lanthanide",
-    "atomic weight":"167.259(3)",
-    "number of stable isotopes":null
+    "atomic_weight":"167.259(3)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":69,
@@ -5341,8 +5347,8 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"lanthanide",
-    "atomic weight":"168.93421(2)",
-    "number of stable isotopes":null
+    "atomic_weight":"168.93421(2)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":70,
@@ -5418,13 +5424,13 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"lanthanide",
-    "atomic weight":"173.054(5)",
-    "number of stable isotopes":null
+    "atomic_weight":"173.054(5)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":71,
     "atomic_symbol":"Lu",
-    "group_number":"3",
+    "group_number":3,
     "old_group_number":"lanthanides",
     "period":6,
     "english_name":"lutetium",
@@ -5495,13 +5501,13 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"lanthanide",
-    "atomic weight":"174.9668(1)",
-    "number of stable isotopes":null
+    "atomic_weight":"174.9668(1)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":72,
     "atomic_symbol":"Hf",
-    "group_number":"4",
+    "group_number":4,
     "old_group_number":"IV B",
     "period":6,
     "english_name":"hafnium",
@@ -5572,13 +5578,13 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"transition element",
-    "atomic weight":"178.49(2)",
-    "number of stable isotopes":null
+    "atomic_weight":"178.49(2)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":73,
     "atomic_symbol":"Ta",
-    "group_number":"5",
+    "group_number":5,
     "old_group_number":"V B",
     "period":6,
     "english_name":"tantalum",
@@ -5649,13 +5655,13 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"transition element",
-    "atomic weight":"180.9479(1)",
-    "number of stable isotopes":null
+    "atomic_weight":"180.9479(1)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":74,
     "atomic_symbol":"W",
-    "group_number":"6",
+    "group_number":6,
     "old_group_number":"VI B",
     "period":6,
     "english_name":"tungsten",
@@ -5726,13 +5732,13 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"transition element",
-    "atomic weight":"183.84(1)",
-    "number of stable isotopes":null
+    "atomic_weight":"183.84(1)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":75,
     "atomic_symbol":"Re",
-    "group_number":"7",
+    "group_number":7,
     "old_group_number":"VII B",
     "period":6,
     "english_name":"rhenium",
@@ -5754,7 +5760,7 @@ $scope.elements = [
     "2nd ionization potential (kJ/mol)":null,
     "3rd ionization potential (kJ/mol)":null,
     "Electron Affinity (eV)":"0.15",
-    "Electron Affinity (kJ/mol)":"14",
+    "Electron Affinity (kJ/mol)":14,
     "common_oxidation_states":"+7,4,6",
     "Predicted Electron Configuration":"[Xe] 6s2 4f14 5d5",
     "Observed Electron Configuration":"[Xe] 6s2 4f14 5d5",
@@ -5803,13 +5809,13 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"transition element",
-    "atomic weight":"186.207(1)",
-    "number of stable isotopes":null
+    "atomic_weight":"186.207(1)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":76,
     "atomic_symbol":"Os",
-    "group_number":"8",
+    "group_number":8,
     "old_group_number":"VIII B",
     "period":6,
     "english_name":"osmium",
@@ -5880,13 +5886,13 @@ $scope.elements = [
     "is_toxic":true,
     "is_carcinogenic":false,
     "Family":"transition element",
-    "atomic weight":"190.23(3)",
-    "number of stable isotopes":null
+    "atomic_weight":"190.23(3)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":77,
     "atomic_symbol":"Ir",
-    "group_number":"9",
+    "group_number":9,
     "old_group_number":"VIII B",
     "period":6,
     "english_name":"iridium",
@@ -5957,13 +5963,13 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"transition element",
-    "atomic weight":"192.217(3)",
-    "number of stable isotopes":null
+    "atomic_weight":"192.217(3)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":78,
     "atomic_symbol":"Pt",
-    "group_number":"10",
+    "group_number":10,
     "old_group_number":"VIII B",
     "period":6,
     "english_name":"platinum",
@@ -6034,13 +6040,13 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"transition element",
-    "atomic weight":"195.084(9)",
-    "number of stable isotopes":null
+    "atomic_weight":"195.084(9)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":79,
     "atomic_symbol":"Au",
-    "group_number":"11",
+    "group_number":11,
     "old_group_number":"I B",
     "period":6,
     "english_name":"gold",
@@ -6111,13 +6117,13 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"transition element",
-    "atomic weight":"196.966569(4)",
-    "number of stable isotopes":null
+    "atomic_weight":"196.966569(4)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":80,
     "atomic_symbol":"Hg",
-    "group_number":"12",
+    "group_number":12,
     "old_group_number":"II B",
     "period":6,
     "english_name":"mercury",
@@ -6131,7 +6137,7 @@ $scope.elements = [
     "Boiling Point, °C":357,
     "state_at_room_temp":"liquid",
     "density g/mL":13.5336,
-    "electronegativity (Pauling)":"2",
+    "electronegativity (Pauling)":2,
     "1st ionization potential (eV)":10.4375,
     "2nd ionization potential (eV)":18.759,
     "3rd ionization potential (eV)":34.202,
@@ -6188,13 +6194,13 @@ $scope.elements = [
     "is_toxic":true,
     "is_carcinogenic":false,
     "Family":"transition element",
-    "atomic weight":"200.59(2)",
-    "number of stable isotopes":null
+    "atomic_weight":"200.59(2)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":81,
     "atomic_symbol":"Tl",
-    "group_number":"13",
+    "group_number":13,
     "old_group_number":"III A",
     "period":6,
     "english_name":"thallium",
@@ -6265,13 +6271,13 @@ $scope.elements = [
     "is_toxic":true,
     "is_carcinogenic":false,
     "Family":"other metal",
-    "atomic weight":"204.3833(2)",
-    "number of stable isotopes":null
+    "atomic_weight":"204.3833(2)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":82,
     "atomic_symbol":"Pb",
-    "group_number":"14",
+    "group_number":14,
     "old_group_number":"IV A",
     "period":6,
     "english_name":"lead",
@@ -6342,13 +6348,13 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":true,
     "Family":"other metal",
-    "atomic weight":"207.2(1)",
-    "number of stable isotopes":null
+    "atomic_weight":"207.2(1)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":83,
     "atomic_symbol":"Bi",
-    "group_number":"15",
+    "group_number":15,
     "old_group_number":"V A",
     "period":6,
     "english_name":"bismuth",
@@ -6419,13 +6425,13 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"other metal",
-    "atomic weight":"208.98040(1)",
-    "number of stable isotopes":null
+    "atomic_weight":"208.98040(1)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":84,
     "atomic_symbol":"Po",
-    "group_number":"16",
+    "group_number":16,
     "old_group_number":"VI A",
     "period":6,
     "english_name":"polonium",
@@ -6439,7 +6445,7 @@ $scope.elements = [
     "Boiling Point, °C":962,
     "state_at_room_temp":"solid",
     "density g/mL":9.32,
-    "electronegativity (Pauling)":"2",
+    "electronegativity (Pauling)":2,
     "1st ionization potential (eV)":8.4167,
     "2nd ionization potential (eV)":null,
     "3rd ionization potential (eV)":null,
@@ -6496,13 +6502,13 @@ $scope.elements = [
     "is_toxic":true,
     "is_carcinogenic":false,
     "Family":"metalloid",
-    "atomic weight":"208.9824*",
-    "number of stable isotopes":null
+    "atomic_weight":"208.9824*",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":85,
     "atomic_symbol":"At",
-    "group_number":"17",
+    "group_number":17,
     "old_group_number":"VII A",
     "period":6,
     "english_name":"astatine",
@@ -6525,7 +6531,7 @@ $scope.elements = [
     "3rd ionization potential (kJ/mol)":null,
     "Electron Affinity (eV)":"2.80",
     "Electron Affinity (kJ/mol)":"270",
-    "common_oxidation_states":"",
+    "common_oxidation_states":"−1,+1,+3,+5,+7",
     "Predicted Electron Configuration":"[Xe] 6s2 4f14 5d10 6p5",
     "Observed Electron Configuration":"[Xe] 6s2 4f14 5d10 6p5",
     "atomic radius (Å)":1.43,
@@ -6573,13 +6579,13 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"halogen",
-    "atomic weight":"209.9871*",
-    "number of stable isotopes":null
+    "atomic_weight":"209.9871*",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":86,
     "atomic_symbol":"Rn",
-    "group_number":"18",
+    "group_number":18,
     "old_group_number":"VIII A",
     "period":6,
     "english_name":"radon",
@@ -6650,13 +6656,13 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"noble gas",
-    "atomic weight":"222.0176*",
-    "number of stable isotopes":null
+    "atomic_weight":"222.0176*",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":87,
     "atomic_symbol":"Fr",
-    "group_number":"1",
+    "group_number":1,
     "old_group_number":"I A",
     "period":7,
     "english_name":"francium",
@@ -6727,13 +6733,13 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"alkali metal",
-    "atomic weight":"223.0197*",
-    "number of stable isotopes":null
+    "atomic_weight":"223.0197*",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":88,
     "atomic_symbol":"Ra",
-    "group_number":"2",
+    "group_number":2,
     "old_group_number":"II A",
     "period":7,
     "english_name":"radium",
@@ -6804,8 +6810,8 @@ $scope.elements = [
     "is_toxic":true,
     "is_carcinogenic":true,
     "Family":"alkaline earth metal",
-    "atomic weight":"226.0254*",
-    "number of stable isotopes":null
+    "atomic_weight":"226.0254*",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":89,
@@ -6881,8 +6887,8 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"actinoid",
-    "atomic weight":"227.0278*",
-    "number of stable isotopes":null
+    "atomic_weight":"227.0278*",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":90,
@@ -6958,8 +6964,8 @@ $scope.elements = [
     "is_toxic":true,
     "is_carcinogenic":false,
     "Family":"actinoid",
-    "atomic weight":"232.03806(2)",
-    "number of stable isotopes":null
+    "atomic_weight":"232.03806(2)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":91,
@@ -7035,8 +7041,8 @@ $scope.elements = [
     "is_toxic":false,
     "is_carcinogenic":false,
     "Family":"actinoid",
-    "atomic weight":"231.03588(2)",
-    "number of stable isotopes":null
+    "atomic_weight":"231.03588(2)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":92,
@@ -7112,8 +7118,8 @@ $scope.elements = [
     "is_toxic":true,
     "is_carcinogenic":false,
     "Family":"actinoid",
-    "atomic weight":"238.02891(3)",
-    "number of stable isotopes":null
+    "atomic_weight":"238.02891(3)",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":93,
@@ -7189,8 +7195,8 @@ $scope.elements = [
     "is_toxic":true,
     "is_carcinogenic":false,
     "Family":"actinoid",
-    "atomic weight":"237.0482*",
-    "number of stable isotopes":null
+    "atomic_weight":"237.0482*",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":94,
@@ -7266,8 +7272,8 @@ $scope.elements = [
     "is_toxic":true,
     "is_carcinogenic":false,
     "Family":"actinoid",
-    "atomic weight":"244.0642*",
-    "number of stable isotopes":null
+    "atomic_weight":"244.0642*",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":95,
@@ -7343,8 +7349,8 @@ $scope.elements = [
     "is_toxic":true,
     "is_carcinogenic":false,
     "Family":"actinoid",
-    "atomic weight":"243.0614*",
-    "number of stable isotopes":null
+    "atomic_weight":"243.0614*",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":96,
@@ -7420,8 +7426,8 @@ $scope.elements = [
     "is_toxic":true,
     "is_carcinogenic":false,
     "Family":"actinoid",
-    "atomic weight":"247.0704*",
-    "number of stable isotopes":null
+    "atomic_weight":"247.0704*",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":97,
@@ -7497,8 +7503,8 @@ $scope.elements = [
     "is_toxic":true,
     "is_carcinogenic":false,
     "Family":"actinoid",
-    "atomic weight":"247.0703*",
-    "number of stable isotopes":null
+    "atomic_weight":"247.0703*",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":98,
@@ -7574,8 +7580,8 @@ $scope.elements = [
     "is_toxic":true,
     "is_carcinogenic":false,
     "Family":"actinoid",
-    "atomic weight":"251.0796*",
-    "number of stable isotopes":null
+    "atomic_weight":"251.0796*",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":99,
@@ -7651,8 +7657,8 @@ $scope.elements = [
     "is_toxic":true,
     "is_carcinogenic":false,
     "Family":"actinoid",
-    "atomic weight":"252.0829*",
-    "number of stable isotopes":null
+    "atomic_weight":"252.0829*",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":100,
@@ -7728,8 +7734,8 @@ $scope.elements = [
     "is_toxic":true,
     "is_carcinogenic":false,
     "Family":"actinoid",
-    "atomic weight":"257.0951*",
-    "number of stable isotopes":null
+    "atomic_weight":"257.0951*",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":101,
@@ -7805,12 +7811,12 @@ $scope.elements = [
     "is_toxic":true,
     "is_carcinogenic":false,
     "Family":"actinoid",
-    "atomic weight":"258.0986*",
-    "number of stable isotopes":null
+    "atomic_weight":"258.0986*",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":102,
-    "atomic_symbol":false,
+    "atomic_symbol":"No",
     "group_number":"actinides",
     "old_group_number":"actinides",
     "period":7,
@@ -7882,13 +7888,13 @@ $scope.elements = [
     "is_toxic":true,
     "is_carcinogenic":false,
     "Family":"actinoid",
-    "atomic weight":"259.1009*",
-    "number of stable isotopes":null
+    "atomic_weight":"259.1009*",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":103,
     "atomic_symbol":"Lr",
-    "group_number":"3",
+    "group_number":3,
     "old_group_number":"actinides",
     "period":7,
     "english_name":"lawrencium",
@@ -7959,13 +7965,13 @@ $scope.elements = [
     "is_toxic":true,
     "is_carcinogenic":false,
     "Family":"actinoid",
-    "atomic weight":"264*",
-    "number of stable isotopes":null
+    "atomic_weight":"264*",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":104,
     "atomic_symbol":"Rf",
-    "group_number":"4",
+    "group_number":4,
     "old_group_number":"IV B",
     "period":7,
     "english_name":"rutherfordium",
@@ -8036,13 +8042,13 @@ $scope.elements = [
     "is_toxic":true,
     "is_carcinogenic":false,
     "Family":"transition element",
-    "atomic weight":"265*",
-    "number of stable isotopes":null
+    "atomic_weight":"265*",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":105,
     "atomic_symbol":"Db",
-    "group_number":"5",
+    "group_number":5,
     "old_group_number":"V B",
     "period":7,
     "english_name":"dubnium",
@@ -8113,13 +8119,13 @@ $scope.elements = [
     "is_toxic":true,
     "is_carcinogenic":false,
     "Family":"transition element",
-    "atomic weight":"268*",
-    "number of stable isotopes":null
+    "atomic_weight":"268*",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":106,
     "atomic_symbol":"Sg",
-    "group_number":"6",
+    "group_number":6,
     "old_group_number":"VI B",
     "period":7,
     "english_name":"seaborgium",
@@ -8190,13 +8196,13 @@ $scope.elements = [
     "is_toxic":true,
     "is_carcinogenic":false,
     "Family":"transition element",
-    "atomic weight":"272*",
-    "number of stable isotopes":null
+    "atomic_weight":"272*",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":107,
     "atomic_symbol":"Bh",
-    "group_number":"7",
+    "group_number":7,
     "old_group_number":"VII B",
     "period":7,
     "english_name":"bohrium",
@@ -8267,13 +8273,13 @@ $scope.elements = [
     "is_toxic":true,
     "is_carcinogenic":false,
     "Family":"transition element",
-    "atomic weight":"273*",
-    "number of stable isotopes":null
+    "atomic_weight":"273*",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":108,
     "atomic_symbol":"Hs",
-    "group_number":"8",
+    "group_number":8,
     "old_group_number":"VIII B",
     "period":7,
     "english_name":"hassium",
@@ -8344,13 +8350,13 @@ $scope.elements = [
     "is_toxic":true,
     "is_carcinogenic":false,
     "Family":"transition element",
-    "atomic weight":"276*",
-    "number of stable isotopes":null
+    "atomic_weight":"276*",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":109,
     "atomic_symbol":"Mt",
-    "group_number":"9",
+    "group_number":9,
     "old_group_number":"VIII B",
     "period":7,
     "english_name":"meitnerium",
@@ -8421,13 +8427,13 @@ $scope.elements = [
     "is_toxic":true,
     "is_carcinogenic":false,
     "Family":"transition element",
-    "atomic weight":"279*",
-    "number of stable isotopes":null
+    "atomic_weight":"279*",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":110,
     "atomic_symbol":"Ds",
-    "group_number":"10",
+    "group_number":10,
     "old_group_number":"VIII B",
     "period":7,
     "english_name":"darmstadtium",
@@ -8498,13 +8504,13 @@ $scope.elements = [
     "is_toxic":true,
     "is_carcinogenic":false,
     "Family":"transition element",
-    "atomic weight":"278*",
-    "number of stable isotopes":null
+    "atomic_weight":"278*",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":111,
     "atomic_symbol":"Rg",
-    "group_number":"11",
+    "group_number":11,
     "old_group_number":"I B",
     "period":7,
     "english_name":"roentgentium",
@@ -8575,13 +8581,13 @@ $scope.elements = [
     "is_toxic":true,
     "is_carcinogenic":false,
     "Family":"transition element",
-    "atomic weight":"283*",
-    "number of stable isotopes":null
+    "atomic_weight":"283*",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":112,
     "atomic_symbol":"Uub",
-    "group_number":"12",
+    "group_number":12,
     "old_group_number":"II B",
     "period":7,
     "english_name":"ununbium",
@@ -8652,13 +8658,13 @@ $scope.elements = [
     "is_toxic":true,
     "is_carcinogenic":false,
     "Family":"transition element",
-    "atomic weight":"285*",
-    "number of stable isotopes":null
+    "atomic_weight":"285*",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":113,
     "atomic_symbol":"Uut",
-    "group_number":"13",
+    "group_number":13,
     "old_group_number":"III A",
     "period":7,
     "english_name":"ununtrium",
@@ -8729,13 +8735,13 @@ $scope.elements = [
     "is_toxic":true,
     "is_carcinogenic":false,
     "Family":"other metal",
-    "atomic weight":"287*",
-    "number of stable isotopes":null
+    "atomic_weight":"287*",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":114,
     "atomic_symbol":"Uuq",
-    "group_number":"14",
+    "group_number":14,
     "old_group_number":"IV A",
     "period":7,
     "english_name":"ununquadium",
@@ -8806,13 +8812,13 @@ $scope.elements = [
     "is_toxic":true,
     "is_carcinogenic":false,
     "Family":"other metal",
-    "atomic weight":"289*",
-    "number of stable isotopes":null
+    "atomic_weight":"289*",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":115,
     "atomic_symbol":"Uup",
-    "group_number":"15",
+    "group_number":15,
     "old_group_number":"V A",
     "period":7,
     "english_name":"ununpentium",
@@ -8883,13 +8889,13 @@ $scope.elements = [
     "is_toxic":true,
     "is_carcinogenic":false,
     "Family":"other metal",
-    "atomic weight":"291*",
-    "number of stable isotopes":null
+    "atomic_weight":"291*",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":116,
     "atomic_symbol":"Uuh",
-    "group_number":"16",
+    "group_number":16,
     "old_group_number":"VI A",
     "period":7,
     "english_name":"ununhexium",
@@ -8960,13 +8966,13 @@ $scope.elements = [
     "is_toxic":true,
     "is_carcinogenic":false,
     "Family":"other metal",
-    "atomic weight":"293*",
-    "number of stable isotopes":null
+    "atomic_weight":"293*",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":117,
     "atomic_symbol":"Uus",
-    "group_number":"17",
+    "group_number":17,
     "old_group_number":"VII A",
     "period":7,
     "english_name":"ununseptium",
@@ -9037,13 +9043,13 @@ $scope.elements = [
     "is_toxic":true,
     "is_carcinogenic":false,
     "Family":"halogen",
-    "atomic weight":"295*",
-    "number of stable isotopes":null
+    "atomic_weight":"295*",
+    "number_of_stable_isotopes":null
   },
   {
     "atomic_number":118,
     "atomic_symbol":"Uuo",
-    "group_number":"18",
+    "group_number":18,
     "old_group_number":"VIII A",
     "period":7,
     "english_name":"ununoctium",
@@ -9066,7 +9072,7 @@ $scope.elements = [
     "3rd ionization potential (kJ/mol)":null,
     "Electron Affinity (eV)":"",
     "Electron Affinity (kJ/mol)":"",
-    "common_oxidation_states":"",
+    "common_oxidation_states":0,
     "Predicted Electron Configuration":"[Rn] 7s2 5f14 6d10 7p6",
     "Observed Electron Configuration":"[Rn] 7s2 5f14 6d10 7p6",
     "atomic radius (Å)":null,
@@ -9114,8 +9120,8 @@ $scope.elements = [
     "is_toxic":true,
     "is_carcinogenic":false,
     "Family":"noble gas",
-    "atomic weight":"294*",
-    "number of stable isotopes":null
+    "atomic_weight":"294*",
+    "number_of_stable_isotopes":null
   }
 ];
     
