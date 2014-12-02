@@ -92,7 +92,6 @@ $scope.elements = [
   { "none": null, },
   { "none": null, },
   { "none": null, },
-  { "none": null, },
   {
     "atomic_number":2,
     "atomic_symbol":"He",
@@ -948,6 +947,14 @@ $scope.elements = [
     "atomic weight":"24.3050(6)",
     "number of stable isotopes":null
   },
+  { "none": null, },
+  { "none": null, },
+  { "none": null, },
+  { "none": null, },
+  { "none": null, },
+  { "none": null, },
+  { "none": null, },
+  { "none": null, },
   {
     "atomic_number":13,
     "atomic_symbol":"Al",
@@ -1025,14 +1032,6 @@ $scope.elements = [
     "atomic weight":"26.9815386(8)",
     "number of stable isotopes":null
   },
-  { "none": null, },
-  { "none": null, },
-  { "none": null, },
-  { "none": null, },
-  { "none": null, },
-  { "none": null, },
-  { "none": null, },
-  { "none": null, },
   {
     "atomic_number":14,
     "atomic_symbol":"Si",
