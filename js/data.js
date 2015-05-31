@@ -1,4 +1,6 @@
-function Controller($scope) {
+angular.module('PeriodicTableApp', [])
+    .controller('PeriodicTableController', function($scope) {
+    var table = this;
 
 $scope.units = {
     "atomic_mass": "IUPAC 2005",
@@ -9220,4 +9222,4 @@ $scope.elements = [
   }
 ];
     
-}
+});
