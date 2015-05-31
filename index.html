@@ -3,13 +3,13 @@
 <head>
     <title>Periodic Table</title>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-    <link href="style.css" rel="stylesheet" type="text/css"/>
-    <script src="angular.js"></script>
-    <script src="data.js"></script>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    <script src="js/angular.js"></script>
+    <script src="js/data.js"></script>
 </head>
 <body ng-controller="Controller">
 
-    <div class="row">
+    <div class="period">
 	    <div ng-repeat="element in elements" style="display: inline">
             <div ng-show="(element.atomic_number<57 || element.atomic_number>70) && (element.atomic_number<89 || element.atomic_number>102)" class="pt element">
                 <div class="pt number">{{element.atomic_number}}</div>
@@ -25,7 +25,7 @@
 
     <div class="divider"></div>
 
-    <div class="row">
+    <div class="period">
 	    <div ng-repeat="element in elements" style="display: inline">
             <div ng-show="element.atomic_number>=57 && element.atomic_number<=70" class="pt element">
                 <div class="pt number">{{element.atomic_number}}</div>
@@ -37,7 +37,7 @@
         </div>
     </div>
 
-    <div class="row">
+    <div class="period">
 	    <div ng-repeat="element in elements" style="display: inline">
             <div ng-show="element.atomic_number>=89 && element.atomic_number<=102" class="pt element">
                 <div class="pt number">{{element.atomic_number}}</div>
