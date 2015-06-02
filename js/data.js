@@ -1,6 +1,26 @@
-angular.module('PeriodicTableApp', [])
-    .controller('PeriodicTableController', function($scope) {
-    var table = this;
+var app = angular.module('PeriodicTableApp', ['angularModalService']);
+
+app.controller('PeriodicTableController', function($scope, ModalService) {
+
+    $scope.showModal = function(data) {
+
+        console.log("hi", data);
+
+        // Just provide a template url, a controller and call 'showModal'.
+        ModalService.showModal({
+            templateUrl: "detail/detail.html",
+            controller: "ElementDetailController"
+        }).then(function(modal) {
+
+            console.log("HI!!!");
+
+            // The modal object has the element built, if this is a bootstrap modal
+            // you can call 'modal' to show it, if it's a custom modal just show or hide
+            // it as you need to.
+            //modal.element.modal();
+
+        });
+    };
 
 $scope.units = {
     "atomic_mass": "IUPAC 2005",
