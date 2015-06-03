@@ -1,16 +1,186 @@
 <div class="detail">
-    <table>
-        <tr>
-            <td>X</td>
-            <td>{{ element.atomic_number }}</td>
-            <td>{{ atomic_number }}</td>
-        </tr>
 
+    <div class="width-one-third">
+        Period Number
+        {{ element.period }}
+    </div>
+
+    <div class="width-one-third">
+        Group Number
+        {{ element.group_number }}
+    </div>
+
+    <div class="width-one-third text-right">
+        <a class="close" ng-click="close()">&times;</a>
+    </div>
+
+    <div class="width-one-third">
+        <div>
+            Family: {{ element.family }}
+        </div>
+        <div>
+            Melting point: {{ element.melting_point }}
+        </div>
+        <div>
+            Boiling point: {{ element.boiling_point }}
+        </div>
+        <div>
+            State at room temperature: {{ element.state_at_room_temp }}
+        </div>
+    </div>
+
+    <div class="width-one-third">
+        <div class="symbol-above">
+            <div class="width-one-half" title="Atomic number">
+                <p class="center">{{ element.atomic_number }}</p>
+            </div>
+            <div class="width-one-half" title="Atomic mass">
+                <p class="center">{{ element.atomic_mass }}</p>
+            </div>
+        </div>
+        <div class="atomic_symbol center">
+            {{ element.atomic_symbol }}
+        </div>
+        <div class="english_name center">
+            {{ element.english_name }}
+        </div>
+    </div>
+
+    <div class="width-one-third">
+
+    </div>
+
+
+    <table>
+        <thead>
+            <tr>
+                <th>Atomic weight</th>
+                <th>Atomic volume</th>
+                <th>Density</th>
+                <th>Electronegativity</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>{{ element.atomic_weight }}</td>
+                <td>{{ element.atomic_volume }} (cm<sup>3</sup>/mol)</td>
+                <td>{{ element.density }}</td>
+                <td>{{ element.electronegativity }}</td>
+            </tr>
+        </tbody>
     </table>
 
-    <p>
-        This is a custom modal.
-        <button ng-click="close()">Close</button>
-    </p>
+    <div class="width-one-half">
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>eV</th>
+                    <th>kJ/mol</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1st ionization potential</td>
+                    <td>{{ element.first_ionization_potential_ev }}</td>
+                    <td>{{ element.first_ionization_potential_kj_per_mol }}</td>
+                </tr>
+                <tr>
+                    <td>2nd ionization potential</td>
+                    <td>{{ element.second_ionization_potential_ev }}</td>
+                    <td>{{ element.second_ionization_potential_kj_per_mol }}</td>
+                </tr>
+                <tr>
+                    <td>3rd ionization potential</td>
+                    <td>{{ element.third_ionization_potential_ev }}</td>
+                    <td>{{ element.third_ionization_potential_kj_per_mol }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="width-one-half">
+        <div class="width-one-half">
+
+        </div>
+        <div class="width-one-half">
+            <div class="radioactive" ng-class="element.radioactive ? 'true' : 'false'">
+                <span ng-if="element.radioactive">Radioactive</span>
+                <span ng-if="!element.radioactive">Not radioactive</span>
+            </div>
+
+            <div class="toxic" ng-class="element.is_toxic ? 'true' : 'false'">
+                <span ng-if="element.is_toxic">Toxic</span>
+                <span ng-if="!element.is_toxic">Not toxic</span>
+            </div>
+
+            <div class="carcinogenic" ng-class="element.carcinogenic ? 'true' : 'false'">
+                <span ng-if="element.carcinogenic">Carcinogenic</span>
+                <span ng-if="!element.carcinogenic">Not carcinogenic</span>
+            </div>
+        </div>
+    </div>
+
+    <!--
+    number_of_stable_isotopes
+    source
+    uses
+    old_group_number
+
+    german_name
+    french_name
+    spanish_name
+    italian_name
+
+    rounded_atomic_mass
+    Electron Affinity (eV)
+    Electron Affinity (kJ/mol)
+    common_oxidation_states
+    Predicted Electron Configuration
+    Observed Electron Configuration
+    atomic_radius
+    ionic_radius
+    covalent_radius
+    radius (2- ion) (pm)
+    radius (1- ion) (pm)
+    atomic radius (pm)
+    radius (1+ ion) (pm)
+    radius (2+ ion) (pm)
+    radius (3+ ion) (pm)
+
+    crystal_structure
+    CAS Registry No.
+    electrical conductivity (mho/cm)
+    specific heat (J/g K)
+    heat of fusion (kJ/mol)
+    heat of vaporization (kJ/mol)
+    thermal conductivity (W/(m K))
+    color
+    characteristics
+    structure
+    hardness (mohs)
+    reaction with air
+    reaction with water
+    reaction with 6M HCl
+    reaction with 15M HNO3
+    reaction with 6M NaOH
+    hydrides
+    oxides
+    chlorides
+    polarizability (A^3)
+    heat atomization (kJ/mol)
+
+    discoverer
+    year discovered
+
+    rel. abundance solar system (log)
+    abundance earth's crust (log)
+    mg/kg in Earth's crust
+    mg/L in seawater
+    % human body mass
+    cost, pure ($/100g)
+    cost, bulk ($/100g)
+    -->
+
 </div>
 <div class="fade" ng-show="display" ng-click="close()"></div>
