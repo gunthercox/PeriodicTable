@@ -29,25 +29,25 @@
 
     <div class="period">
 	    <div ng-repeat="element in elements" style="display: inline">
-            <div ng-show="element.atomic_number>=57 && element.atomic_number<=70" class="pt element">
+            <a href="" ng-show="element.atomic_number>=57 && element.atomic_number<=70" class="pt element" ng-click="showModal(element)">
                 <div class="pt number">{{element.atomic_number}}</div>
                 <div class="pt charge">{{element.common_oxidation_states}}</div>
                 <div class="pt symbol {{element.state_at_room_temp}}">{{element.atomic_symbol}}</div>
                 <div class="pt name">{{element.english_name}}</div>
                 <div class="pt mass">{{element.rounded_atomic_mass}}</div>
-            </div>
+            </a>
         </div>
     </div>
 
     <div class="period">
 	    <div ng-repeat="element in elements" style="display: inline">
-            <div ng-show="element.atomic_number>=89 && element.atomic_number<=102" class="pt element">
+            <a href="" ng-show="element.atomic_number>=89 && element.atomic_number<=102" class="pt element" ng-click="showModal(element)">
                 <div class="pt number">{{element.atomic_number}}</div>
                 <div class="pt charge">{{element.common_oxidation_states}}</div>
                 <div class="pt symbol {{element.state_at_room_temp}}">{{element.atomic_symbol}}</div>
                 <div class="pt name">{{element.english_name}}</div>
                 <div class="pt mass">{{element.rounded_atomic_mass}}</div>
-            </div>
+            </a>
         </div>
     </div>
 
