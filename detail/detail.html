@@ -44,6 +44,9 @@
         <div class="english_name center">
             {{ element.english_name }}
         </div>
+        <div class="emission_spectrum">
+            <img src="{{ element.emission_spectrum }}">
+        </div>
     </div>
 
     <div class="width-one-third">
@@ -121,10 +124,96 @@
         </div>
     </div>
 
+    <div class="width-one-half">
+        <table>
+            <tbody>
+                <tr>
+                    <td>Atomic radius</td>
+                    <td>{{ element.atomic_radius }}</td>
+                </tr>
+                <tr>
+                    <td>Ionic radius</td>
+                    <td>{{ element.ionic_radius }}</td>
+                </tr>
+                <tr>
+                    <td>Covalent radius</td>
+                    <td>{{ element.covalent_radius }}</td>
+                </tr>
+                <tr>
+                    <td>Number of stable isotopes</td>
+                    <td>{{ element.number_of_stable_isotopes }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="width-one-half">
+        <table>
+            <tbody>
+                <tr>
+                    <td>Source</td>
+                    <td>{{ element.source }}</td>
+                </tr>
+                <tr>
+                    <td>Uses</td>
+                    <td>{{ element.uses }}</td>
+                </tr>
+                <tr>
+                    <td>Discoverer</td>
+                    <td>{{ element.discoverer }}</td>
+                </tr>
+                <tr>
+                    <td>Year discovered</td>
+                    <td>{{ element.year_discovered }}</td>
+                </tr>
+                <tr>
+                    <td>Crystal structure</td>
+                    <td>{{ element.crystal_structure }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div>
+        <table>
+            <tbody>
+                <tr>
+                    <td>Hydrides</td>
+                    <td>{{ element.hydrides }}</td>
+                </tr>
+                <tr>
+                    <td>Oxides</td>
+                    <td>{{ element.oxides }}</td>
+                </tr>
+                <tr>
+                    <td>Chlorides</td>
+                    <td>{{ element.chlorides }}</td>
+                </tr>
+                <tr>
+                    <td>Reaction with air</td>
+                    <td>{{ element.reaction_with_air }}</td>
+                </tr>
+                <tr>
+                    <td>Reaction with water</td>
+                    <td>{{ element.reaction_with_water }}</td>
+                </tr>
+                <tr>
+                    <td>Reaction with 6M HCl</td>
+                    <td>{{ element.reaction_with_6M_HCl }}</td>
+                </tr>
+                <tr>
+                    <td>Reaction with 15M HNO3</td>
+                    <td>{{ element.reaction_with_15M_HNO3 }}</td>
+                </tr>
+                <tr>
+                    <td>Reaction with 6M NaOH</td>
+                    <td>{{ element.reaction_with_6M_NaOH }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
     <!--
-    number_of_stable_isotopes
-    source
-    uses
     old_group_number
 
     german_name
@@ -138,9 +227,7 @@
     common_oxidation_states
     Predicted Electron Configuration
     Observed Electron Configuration
-    atomic_radius
-    ionic_radius
-    covalent_radius
+
     radius (2- ion) (pm)
     radius (1- ion) (pm)
     atomic radius (pm)
@@ -148,7 +235,6 @@
     radius (2+ ion) (pm)
     radius (3+ ion) (pm)
 
-    crystal_structure
     CAS Registry No.
     electrical conductivity (mho/cm)
     specific heat (J/g K)
@@ -159,19 +245,9 @@
     characteristics
     structure
     hardness (mohs)
-    reaction with air
-    reaction with water
-    reaction with 6M HCl
-    reaction with 15M HNO3
-    reaction with 6M NaOH
-    hydrides
-    oxides
-    chlorides
+
     polarizability (A^3)
     heat atomization (kJ/mol)
-
-    discoverer
-    year discovered
 
     rel. abundance solar system (log)
     abundance earth's crust (log)

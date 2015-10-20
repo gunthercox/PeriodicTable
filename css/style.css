@@ -9,6 +9,11 @@ body {
     -webkit-tap-highlight-color: rbga(255, 255, 255, 0);
     -webkit-user-select: none;
 }
+
+img {
+    width: 100%;
+}
+
 .pt {
     color: #eee;
     text-align: center;
@@ -98,7 +103,9 @@ body {
     height: 75%;
     z-index: 100;
     border-radius: 3px;
-    color: blue;
+    color: #828282;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 .text-right {
@@ -158,6 +165,17 @@ body {
     padding: 5px 25px;
     font-size: 15px;
     text-transform: capitalize;
+}
+
+.detail .emission_spectrum {
+    background: black;
+    padding: 0px;
+    overflow: hidden;
+    height: 10px;
+}
+
+.detail .emission_spectrum img {
+    height: 20px;
 }
 
 .detail .radioactive.true,
