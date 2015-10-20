@@ -2098,7 +2098,7 @@ $scope.elements = [
     "family":"transition element",
     "atomic_weight":"55.845(2)",
     "number_of_stable_isotopes":null,
-    "emission_spectrum":"elements/Fe.jpg",
+    "emission_spectrum":"elements/Fe.png",
     "radioactive":false
   },
   {

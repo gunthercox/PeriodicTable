@@ -5,9 +5,10 @@
         {{ element.period }}
     </div>
 
-    <div class="width-one-third">
-        Group Number
-        {{ element.group_number }}
+    <div class="width-one-third" ng-click="toggleGroup = !toggleGroup">
+        {{ groupNumberText }}
+        <span ng-show="toggleGroup">{{ element.group_number }}</span>
+        <span ng-hide="toggleGroup">{{ element.old_group_number }}</span>
     </div>
 
     <div class="width-one-third text-right">
@@ -143,6 +144,10 @@
                     <td>Number of stable isotopes</td>
                     <td>{{ element.number_of_stable_isotopes }}</td>
                 </tr>
+                <tr>
+                    <td>Common oxidation states</td>
+                    <td>{{ element.common_oxidation_states }}</td>
+                </tr>
             </tbody>
         </table>
     </div>
@@ -214,8 +219,6 @@
     </div>
 
     <!--
-    old_group_number
-
     german_name
     french_name
     spanish_name
@@ -224,7 +227,6 @@
     rounded_atomic_mass
     Electron Affinity (eV)
     Electron Affinity (kJ/mol)
-    common_oxidation_states
     Predicted Electron Configuration
     Observed Electron Configuration
 

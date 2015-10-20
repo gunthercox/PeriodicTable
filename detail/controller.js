@@ -12,4 +12,13 @@ app.controller('ElementDetailController',
         close();
     };
 
+    /* Allow the group number to be toggled between the new and old
+     * format by clicking on the group number.
+     */
+    $scope.toggleGroup = true;
+
+    $scope.$watch('toggleGroup', function() {
+        $scope.groupNumberText = $scope.toggleGroup ? 'Group Number' : 'Old Group Number';
+    });
+
 }]);
