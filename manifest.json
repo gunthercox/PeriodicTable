@@ -1,5 +1,6 @@
 {
   "name": "Periodic Table",
+  "short_name": "Periodic Table",
   "description": "A detailed Periodic Table of the Elements",
   "version": "0.0.4",
   "manifest_version": 2,
@@ -15,6 +16,6 @@
   },
   "web_accessible_resources": [
     "elements/*.png",
-    "elements/*.jpg",
+    "elements/*.jpg"
   ]
 }
