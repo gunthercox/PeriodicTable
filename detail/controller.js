@@ -12,6 +12,7 @@ app.controller('ElementDetailController',
         close();
     };
 
+
     /* Allow the group number to be toggled between the new and old
      * format by clicking on the group number.
      */
@@ -20,5 +21,23 @@ app.controller('ElementDetailController',
     $scope.$watch('toggleGroup', function() {
         $scope.groupNumberText = $scope.toggleGroup ? 'Group Number' : 'Old Group Number';
     });
+
+
+    /* Settings for % human body mass graph */
+    $scope.barData = {
+        labels: ['% Human body mass'],
+        series: [
+            [element.percent_human_body_mass]
+        ]
+    };
+
+    $scope.barOptions = {
+        seriesBarDistance: 100,
+        reverseData: true,
+        horizontalBars: true,
+        axisY: {
+            offset: 50
+        }
+    };
 
 }]);

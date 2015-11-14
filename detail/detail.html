@@ -1,18 +1,20 @@
 <div class="detail">
 
-    <div class="width-one-third">
-        Period Number
-        {{ element.period }}
-    </div>
+    <div>
+        <div class="width-one-third">
+            Period Number
+            {{ element.period }}
+        </div>
 
-    <div class="width-one-third" ng-click="toggleGroup = !toggleGroup">
-        {{ groupNumberText }}
-        <span ng-show="toggleGroup">{{ element.group_number }}</span>
-        <span ng-hide="toggleGroup">{{ element.old_group_number }}</span>
-    </div>
+        <div class="width-one-third" ng-click="toggleGroup = !toggleGroup">
+            {{ groupNumberText }}
+            <span ng-show="toggleGroup">{{ element.group_number }}</span>
+            <span ng-hide="toggleGroup">{{ element.old_group_number }}</span>
+        </div>
 
-    <div class="width-one-third text-right">
-        <a class="close" ng-click="close()">&times;</a>
+        <div class="width-one-third text-right">
+            <a class="close" ng-click="close()">&times;</a>
+        </div>
     </div>
 
     <div class="width-one-third">
@@ -216,6 +218,10 @@
                 </tr>
             </tbody>
         </table>
+    </div>
+
+    <div ng-show="element.percent_human_body_mass > 0">
+        <chartist class="ct-chart" chartist-data="barData" chartist-chart-type="Bar" chartist-chart-options="barOptions"></chartist>
     </div>
 
     <!--
