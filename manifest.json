@@ -1,7 +1,7 @@
 {
   "name": "Periodic Table",
   "description": "A detailed Periodic Table of the Elements",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "manifest_version": 2,
   "offline_enabled": true,
   "app": {
@@ -9,5 +9,12 @@
       "scripts": ["js/chrome.js"]
     }
   },
-  "icons": { "16": "images/16.png", "128": "images/128.png" }
+  "icons": {
+    "16": "images/16.png",
+    "128": "images/128.png"
+  },
+  "web_accessible_resources": [
+    "elements/*.png",
+    "elements/*.jpg",
+  ]
 }
